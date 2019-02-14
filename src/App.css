@@ -4,18 +4,26 @@ div.image {
   font-size: 100px;
   text-align: center;
   line-height: 200px;
-  background-color: azure;
+  /* background-color: azure; */
   border: 1px solid black;
   margin: 10px;
 }
 
 #board {
   display: flex;
-
+  /* flex: row wrap; */
+  margin: auto;
+  justify-content: space-evenly;
 }
 
 header {
+  height: 90px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   font-size: 2em;
+  color: white;
+  font-size: 21pt;
+  font-weight: bolder;
+  background-color: blue;
 }

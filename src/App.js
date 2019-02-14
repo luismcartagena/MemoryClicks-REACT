@@ -28,12 +28,12 @@ class App extends Component {
       this.setState({
         "clicked": clicked,
         "score": this.state.score + 1,
-        "message": "Good guess, keep going"
+        "message": "Good guess, keep going!"
       })
     } else {
       // you lose, start over
       this.setState({
-        "message": "You Lose, start over",
+        "message": "You Lose, start over :(",
         "score": 0,
         "clicked": []
       })
@@ -48,7 +48,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="container">
         <Header 
         message={this.state.message}
         score={this.state.score}
