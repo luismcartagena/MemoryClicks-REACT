@@ -7,12 +7,16 @@ div.image {
   /* background-color: azure; */
   border: 1px solid black;
   margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
 }
 
 #board {
-  display: flex;
+  /* display: flex; */
   /* flex: row wrap; */
-  margin: auto;
+  margin-top: 15px;
+  margin-left: 165px;
+  margin-right: 125px;
   justify-content: space-evenly;
 }
 
